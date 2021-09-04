@@ -9,7 +9,7 @@ class Directory extends React.Component{
             sections:[
                 {
                     title:"hats",
-                    imageUrl:"images/hats.jpg",
+                    imageUrl:"https://i.ibb.co/ZYW3VTp/brown-brim.png",
                     id:1,
                     linkUrl:"hats"
                 },
@@ -37,10 +37,13 @@ class Directory extends React.Component{
                     id:5,
                     linkUrl:"mens"
                 },
-            ]
+            ],
+            
         }
     }
+    
     render(){
+       
         return(
             <div className="directory-menu">
                 {
